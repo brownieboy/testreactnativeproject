@@ -1,0 +1,24 @@
+{
+"plugins": [
+    "react"
+  ],
+  "globals": { "fetch": false },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "jsx": true
+        }
+    },
+    "extends": "eslint",
+    "rules": {
+        "semi": 2,
+        "indent": "off",
+        "valid-jsdoc": [2, {
+            "prefer": {
+                "return": "return"
+            }
+        }]
+    }
+}
